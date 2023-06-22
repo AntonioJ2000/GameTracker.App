@@ -1,4 +1,4 @@
-package es.anto.gametrackerapp.ui.theme
+package es.anto.gametrackerapp.presentation.theme
 
 import android.app.Activity
 import android.os.Build

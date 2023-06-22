@@ -3,6 +3,8 @@ plugins {
     id 'org.jetbrains.kotlin.android'
 }
 
+def nav_version = "2.6.0"
+
 android {
     namespace 'es.anto.gametrackerapp'
     compileSdk 33
@@ -69,4 +71,8 @@ dependencies {
 
     //Retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+
+    //Compose navigation
+    implementation("androidx.navigation:navigation-compose:$nav_version")
+
 }
